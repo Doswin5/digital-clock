@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: url("https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG5hdHVyZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60"); */
+  /* background: url("https://source.unsplash.com/random/?Nature&20"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.clock {
+  display: flex;
+  margin-top: 16px;
+}
+
+.clock div {
+  margin: 8px;
+  position: relative;
+}
+
+.clock div span {
+  display: flex;
+  /* padding: 40px; */
+  width: 100px;
+  height: 80px;
+  background: slateblue;
+  opacity: 0.8;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+  
+  /* margin-top: 4px; */
+}
+
+.clock div .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: darkblue;
+  opacity: .8;
+}
+
+.clock div #ampm {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: green;
+  bottom: 0;
+}
+
+h3 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 24px;
+  color: white;
+  text-shadow: 200px 200px 40px 40px rgba(0, 0, 0, 1);
+}
